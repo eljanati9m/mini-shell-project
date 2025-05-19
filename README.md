@@ -47,7 +47,7 @@ make
 
 ## ▶️ Usage
 
-![Image](https://github.com/user-attachments/assets/46d95c31-fc3c-4794-b1b8-59d3511e0831) ![Image](https://github.com/user-attachments/assets/4767705e-d04b-408f-bf57-1c946c76303d)
+![Image](https://github.com/user-attachments/assets/46d95c31-fc3c-4794-b1b8-59d3511e0831)     ##![Image](https://github.com/user-attachments/assets/4767705e-d04b-408f-bf57-1c946c76303d)
 
 ---
 
