@@ -1,31 +1,44 @@
-🐚 Mini Shell
-A simple Unix-like shell written in C, created as a systems programming project. It supports the execution of basic commands and includes essential shell functionalities such as process creation and basic signal handling.
+# 🐚 Mini Shell
 
-✨ Features
-Execution of external commands (e.g., ls, pwd, echo, etc.)
+A lightweight Unix-like shell developed in C as part of a systems programming project. This project was built to gain hands-on experience with low-level process management, command execution, and basic shell behavior.
 
-Built-in commands (cd, exit)
+---
 
-Basic command-line parsing
+## 📌 Table of Contents
 
-Process management using fork(), execvp(), and wait()
+- [🔧 Features](#-features)
+- [📁 Installation](#-installation)
+- [▶️ Usage](#-usage)
+- [🎯 Learning Objectives](#-learning-objectives)
+- [🚫 Not Yet Supported](#-not-yet-supported)
+- [🧠 Challenges Faced](#-challenges-faced)
+- [🚀 Future Improvements](#-future-improvements)
+- [👤 Author](#-author)
 
-Signal handling for keyboard interrupts (e.g., Ctrl+C)
+---
 
-Minimal error handling
+## 🔧 Features
 
-❌ Not (Yet) Supported
-Command chaining with separators (;)
+- Execution of external Unix commands (`ls`, `pwd`, `echo`, etc.)
+- Built-in commands:
+  - `cd` to change directories
+  - `exit` to quit the shell
+- Process creation and control using `fork()`, `execvp()`, and `wait()`
+- Basic signal handling (`Ctrl+C`)
+- Simple command line parsing
 
-Input/output redirection (>, <, >>)
+---
 
-Piping (|)
+## 📁 Installation
 
-Environment variable expansion
+### Requirements
 
-⚙️ Technologies
-Language: C
+- A Linux-based system with `gcc` and `make` installed.
 
-Compilation: GCC, Makefile
+### Steps
 
-System calls: fork(), execvp(), wait()
+```bash
+git clone https://github.com/eljanati9m/mini-shell-project.git
+cd mini-shell-project
+make
+./minishell
