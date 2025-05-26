@@ -62,21 +62,6 @@ void	jn_execute(char **args)
  * jn_read_line - Lit une ligne depuis l’entrée standard
  * Return: Pointeur vers la ligne lue ou NULL en cas d’échec
  */
-/*char	*jn_read_line()
-{
-	char	*line;
-	size_t	bufsize;
-	char	cwd[BUFSIZ];
-
-	line = NULL;
-	bufsize = 0;
-
-	printf(CYAN"[%s]"NC" > ",Getcwd(cwd, BUFSIZ));
-
-	Getline(&line, &bufsize, stdin);
-
-	return line;
-}*/
 
 char *get_username() {
 	struct passwd *pw = getpwuid(getuid());
